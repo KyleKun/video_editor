@@ -221,7 +221,7 @@ Since [v1.3.0](https://github.com/LeGoffMael/video_editor/releases/tag/v1.3.0), 
 To do this, add this to your `pubspec.yaml`:
 ```yaml
 dependency_overrides:
-  ffmpeg_kit_flutter_min_gpl: ^5.1.0-LTS
+  ffmpeg_kit_flutter_full_gpl: ^5.1.0-LTS
 ```
 
 On Android, if it gives a `minSdkVersion` error, try adding the following in `/android/app/src/main/AndroidManifest.xml`.
